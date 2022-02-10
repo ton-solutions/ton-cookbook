@@ -394,5 +394,5 @@ tuple insert_sorted(tuple t, int x) {
   }
   seq_no += 1;
   store_data();
-f
+}
 ```
