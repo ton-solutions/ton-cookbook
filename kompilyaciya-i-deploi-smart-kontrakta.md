@@ -19,7 +19,6 @@ import { promises } from 'fs'
 import { Address, Cell, CellMessage, contractAddress, serializeDict, TonClient } from 'ton'
 import { compileFunc } from 'ton-compiler'
 import nacl from 'tweetnacl'
-import readline from 'readline'
 ```
 
 Далее нужно создать пару ключей для управления смарт-контрактом:
