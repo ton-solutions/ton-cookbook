@@ -30,7 +30,7 @@ const { publicKey, secretKey } = nacl.sign.keyPair()
 Далее нужно скомпилировать смарт-контракт. В качестве примера мы будем использовать исходный код смарт контракта [TON Fruits](./):
 
 ```javascript
-// You may find slot.fc content here https://gist.gitjahub.com/ton-solutions/c300d0ebb0a3ee920c8e8b310a451e29
+// You may find slot.fc content here https://gist.github.com/ton-solutions/c300d0ebb0a3ee920c8e8b310a451e29
 const funcSource = (await promises.readFile('slot.fc')).toString('utf-8')
 const compilationResult = await compileFunc(funcSource)
 const initialCode = Cell.fromBoc(compilationResult.cell)[0]
