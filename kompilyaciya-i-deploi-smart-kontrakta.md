@@ -40,7 +40,6 @@ const initialCode = Cell.fromBoc(compilationResult.cell)[0]
 Подготовим изначальное состояние:
 
 ```javascript
-const workchain = 0
 const reelsCount = 5
 const symbolsCount = 8
 const payTable = new Map([
@@ -71,18 +70,19 @@ initialData.bits.writeBuffer(Buffer.from(publicKey))
 initialData = initialData.withReference(slotParams)
 ```
 
-Далее нам нужно получить адрес смарт-контракта. Для этого нужно создать объект `сontractSource` из ранее полученных `codeBoc` и `initialData`:
+Далее нам нужно получить адрес смарт-контракта. Для этого нужно вызвать функцию `contractAddress` из пакета `ton`, передав в нее ранее полученные `initialCode` и `initialData`:
 
 ```javascript
 const contractSource = {
-    initialCode: codeBoc,
-    initialData: initialData,
-    workchain,
+    initialCode,
+    initialData,
+    workchain: 0,
 }
+
 const address = await contractAddress(contractSource)
 ```
 
-Сохраним приватный ключ в файл, используя адрес контракта в качестве имени файла. Это позволит нам иметь разные ключи в mainnet и testnet:
+Сохраним приватный ключ в файл, используя адрес контракта в качестве имени файла:
 
 ```javascript
 await promises.writeFile(`${address.toFriendly()}.pk`, Buffer.from(secretKey))
