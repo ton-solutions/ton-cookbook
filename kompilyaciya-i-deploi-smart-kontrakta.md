@@ -28,7 +28,7 @@ import readline from 'readline'
 const { publicKey, secretKey } = nacl.sign.keyPair()
 ```
 
-Далее нужно скомпилировать смарт-контракт. В качестве примера мы будем использовать исходный код смарт контракта [slot.fc](./):
+Далее нужно скомпилировать смарт-контракт. В качестве примера мы будем использовать исходный код смарт контракта [TON Fruits](./):
 
 ```javascript
 // You may find slot.fc content here https://gist.gitjahub.com/ton-solutions/c300d0ebb0a3ee920c8e8b310a451e29
@@ -118,4 +118,4 @@ await client.sendExternalMessage(
 )
 ```
 
-Готово, ваш смарт контракт задеплоен
+Готово, смарт контракт задеплоен
