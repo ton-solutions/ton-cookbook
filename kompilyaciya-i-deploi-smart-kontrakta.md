@@ -65,7 +65,7 @@ let initialData = new Cell()
  // seq_no
 initialData.bits.writeUint(0, 32)
 // Owner address
-initialData.bits.writeAddress(Address.parse('EQC3oEAS3MZUk1OwMjE_IbFVl5e4SWsNVUV50dAWKF0S1ShS'))
+initialData.bits.writeAddress(Address.parse('<YOUR_ADDRESS>'))
 // Deployer public key
 initialData.bits.writeBuffer(Buffer.from(publicKey))
 initialData = initialData.withReference(slotParams)
