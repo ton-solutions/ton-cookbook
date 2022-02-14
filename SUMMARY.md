@@ -1,5 +1,5 @@
 # Table of contents
 
-* [💎 Код смарт-контракта TON Fruits](README.md)
-* [✅ Верификация кода смарт-контракта](verifikaciya-koda-smart-kontrakta.md)
-* [🔨 Компиляция и деплой смарт-контракта](kompilyaciya-i-deploi-smart-kontrakta.md)
+* [💎 TON Fruits smart contract source code](README.md)
+* [✅ Smart contract code verification](smart-contract-code-verification.md)
+* [🔨 Compilation and deploy of the TON smart contract](compilation-and-deploy-of-the-ton-smart-contract.md)

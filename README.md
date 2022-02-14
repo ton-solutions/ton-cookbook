@@ -1,15 +1,21 @@
 ---
-description: Исходный код игрового смарт-контракта TON Fruits, написанный на языке FunC
+description: >-
+  The source code of the gambling smart contract TON Fruits, written on FunC
+  language
 ---
 
-# 💎 Код смарт-контракта TON Fruits
+# 💎 TON Fruits smart contract source code
 
-Приложение находится [здесь](https://t.me/ton\_fruits\_bot)
+### Some links
 
-Информация о проекте находится [здесь](https://t.me/tonfruits\_news)
+[TON Fruits telegram bot](https://t.me/ton\_fruits\_bot)
 
-Свои вопросы по коду вы можете задать в [чате](https://t.me/tonfruits\_chat)
+[Telegram channel with updates](https://t.me/tonfruits\_news)
 
-Исходный код также доступен [здесь](https://gist.github.com/ton-solutions/c300d0ebb0a3ee920c8e8b310a451e29)
+[Telegram chat](https://t.me/tonfruits\_chat)
+
+[Gist with the source code](https://gist.github.com/ton-solutions/c300d0ebb0a3ee920c8e8b310a451e29)
+
+### The code
 
 {% embed url="https://gist.github.com/ton-solutions/c300d0ebb0a3ee920c8e8b310a451e29" %}
