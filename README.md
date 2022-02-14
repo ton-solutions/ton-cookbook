@@ -8,7 +8,7 @@ description: >-
 
 ### Some links
 
-[TON Fruits telegram bot](https://t.me/ton\_fruits\_bot)
+[TON Fruits app](https://t.me/ton\_fruits\_bot)
 
 [Telegram channel with updates](https://t.me/tonfruits\_news)
 
