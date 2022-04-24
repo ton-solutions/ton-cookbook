@@ -1,5 +1,7 @@
 # 🎟 TON smart contract for NFT raffle
 
+Made by [TON Fruits](https://t.me/tonfruits\_news)
+
 This smart contract allows you to raffle off [NFT](https://github.com/ton-blockchain/TIPs/issues/62) on TON Blockchain. To do that, you need to deploy this contract, and transfer your NFT's to this contract.&#x20;
 
 To choose winner you need to send internal message with opcode 1, array of participant addresses, array of NFT addresses, and participant counts (size of `tickets` array). Several participants with same address are supported, this will increase probability to win for this address.
